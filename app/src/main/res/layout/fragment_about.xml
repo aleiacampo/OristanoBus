@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oristano Bus v1.2.3"
+            android:textSize="20dp"
+            android:id="@+id/textView"
+            android:textColor="@color/blue_accent"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2015 aleiacampo.com"
+            android:textSize="15dp"
+            android:id="@+id/textView_text1"
+            android:textColor="#000"
+            android:layout_marginTop="12dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="textView_email"
+            android:textSize="14dp"
+            android:id="@+id/textView_email"
+            android:textColor="#000"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="textView_link"
+            android:clickable="true"
+            android:textSize="14dp"
+            android:id="@+id/textView_link"
+            android:textColor="#000"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apache License, Version 2.0"
+            android:textSize="14dp"
+            android:id="@+id/textView_text4"
+            android:textColor="#000"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

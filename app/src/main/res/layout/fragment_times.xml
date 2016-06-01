@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/times_frag"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_stopSelected"
+            android:text="textView_stopSelected"
+            android:gravity="center"
+            android:textColor="@color/blue_accent"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center">
+
+            <ProgressBar
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/progressBarTimes"
+                android:layout_centerHorizontal="true"
+                android:layout_toRightOf="@+id/textView_oristanoBus"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_nextTime"
+                android:layout_marginTop="-30dp"
+                android:layout_below="@id/progressBarTimes"
+                android:text=""
+                android:gravity="center"
+                android:textColor="@color/blue_accent"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@color/blue_accent"
+            android:text="Orari della Fermata"
+            android:textSize="20dp"
+            android:clickable="true" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView_stopTimes"
+            android:layout_marginTop="-1dp"
+            android:layout_marginBottom="78dp" />
+
+    </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_saveInFavourites"
+            android:text="Salva questa fermata"
+            android:layout_marginBottom="16dp"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="#000"
+            android:layout_gravity="center_horizontal|bottom"
+            android:textColor="#fff"
+            android:textStyle=""
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:background="@color/blue"
+            />
+
+
+
+</FrameLayout>
+

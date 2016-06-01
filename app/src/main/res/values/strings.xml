@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Oristano Bus</string>
+  <string name="search">Search</string>
+  <string name="home">Fermata</string>
+  <string name="more">About</string>
+  <string name="search_default">Cerca fermata</string>
+  <string name="lines_spinner_label">Seleziona una linea..</string>
+  <string name="stops_spinner_label">Seleziona una fermata..</string>
+</resources>

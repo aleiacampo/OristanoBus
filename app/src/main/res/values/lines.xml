@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lines_array">
+        <item>Seleziona una linea..</item>
+        <item>Circolare Destra</item>
+        <item>Circolare Sinistra</item>
+        <item>Centro Stroico</item>
+        <item>Sil\u00EC</item>
+        <item>Nuraxinieddu - Massama</item>
+        <item>Rimedio - Donigala - Rimedio</item>
+        <item>Tiria</item>
+        <item>Torregrande (Invernale)</item>
+        <item>Torregrande - S.Nicola (Estiva)</item>
+        <item>Torregrande - Torangius (Estiva)</item>
+        <item>Torregrande (Notturna Estiva)</item>
+        <item>Frazioni</item>
+    </string-array>
+</resources>
+
